@@ -1,4 +1,11 @@
-﻿using System;
+﻿
+//  a deck of cards is just one component of a complete poker game. In addition to a deck of cards, a typical poker game will involve multiple players, a dealer, and various rounds of betting and card dealing.
+// So to implement poker game, we need to create additional classes to represent the other components of this game.
+// - Player : class to represent each player in the game.
+// - Round : class to represent each round of betting and card dealing.
+// - Dealer : class to manage the game flow and coordinate the actions of the players.
+
+using System;
 
 public class Card
 {
@@ -83,9 +90,3 @@ class Program
         }
     }
 }
-
-//  a deck of cards is just one component of a complete poker game. In addition to a deck of cards, a typical poker game will involve multiple players, a dealer, and various rounds of betting and card dealing.
-// So to implement poker game, we need to create additional classes to represent the other components of this game.
-// - Player : class to represent each player in the game.
-// - Round : class to represent each round of betting and card dealing.
-// - Dealer : class to manage the game flow and coordinate the actions of the players.
